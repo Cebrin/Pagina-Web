@@ -68,3 +68,5 @@ La etiqueta input sirve para agregar controles a la pagina
   <br>
   <input type="submit" name="Enviar" value="Enviar formularios">
 </form>
+////////////////////////////////////////////////////////////
+<div></div> sirve para poder cambiarle el contenido grafico se utiliza para imagen o video
