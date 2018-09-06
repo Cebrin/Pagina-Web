@@ -1,0 +1,31 @@
+body{
+  background: #4F1D03;
+}
+p,link{
+  color: red;
+}
+h1{
+  color: Blue;
+  font-size: 72px
+}
+a{
+  color: green
+}
+cite{
+  color: orange;
+}
+.Verde{
+  color: purple;
+}
+.Enviar{
+  color: white;
+  background:green;
+  width:150px;
+
+}
+div p
+{
+  color: white;
+  width: 30%;
+  background: #000
+}
