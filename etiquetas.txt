@@ -9,3 +9,62 @@ La etiqueta <cite> agrega una cita del autor
 La etiqueta <hr> crea una linea separadora a nuestro sitio
 La etiqueta <a h=ref> sirve para poner hipervinculos
 El atributo target hace que el enlace que se abra se abra en una nueva ventana
+La etiqueta <link rel="shorcut icon" type="image/x-icon" href="direccion.ico"> sirve para cambiar el icono de la ventana de la pagina
+La etiqueta <a href="mailto:cebrin@gmail.com" title="Enviar correo">Enviar Mail</a> sirve para enviar un correo al correo especificado y el atributo title
+sirve para que cuando pases el maus sobre el enlace te muestre un mensaje
+La etiqueta <ul></ul> sirve para crear listas, puede servir para menus o atajos
+dentro de la etiqueta <ul> va la etiqueta <li></li> que es para poner los elementos de la lista ejemplo:
+<li><a href="#">Elemento 1</a></li> en esa etiqueta se le asigna un enlace y un elemento a la lista tambien se pueden hacer sub elementos en la lista
+////////////////////Ejemlo////////////////////////
+<ul>
+<li> Elemento 2
+  <ul>
+    <li><a href="#">Elemento 2.1</a></li>
+    <li><a href="#">Elemento 2.2</a></li>
+  </ul>
+</li>
+</ul>
+////////////////////////////////////////////////////
+Para una lista ordenada se utiliza la etiqueta <ol></ol> de la misma forma de la anterior solo ordena la lista la aplicacion es la misma
+
+La etiqueta <table></table> sirve para crear tablas y se utiliza de la siguiente informacionde
+////////////////////Ejemplo/////////////////////////
+<table>
+  <tr>
+    <td>Elemento 1</td>
+    <td>Elemento 2</td>
+    <td>Elemento 3</td>
+  </tr>
+  <tr>
+    <td>Elemento 4</td>
+    <td>Elemento 5</td>
+    <td>Elemento 6</td>
+  </tr>
+  <tr>
+    <td>Elemento 7</td>
+    <td>Elemento 8</td>
+    <td>Elemento 9</td>
+  </tr>
+</table>
+////////////////////////////////////////////////////////
+
+La etiqueta <tr> significa la columna que se esta creando y la etiqueta <td> es el contenido que se le introduce a la tabla.
+para que tenga un borde es <table border="3px" width="100%"></table>
+
+La etiqueta input sirve para agregar controles a la pagina
+//////////////////////////////////////////////////////////
+<form class="" action="index.html" method="post">
+  <label for="nombre">Ingrese su nombre</label>
+  <input type="text" name="nombre" placeholder="Escribe tu nombre" maxlength="5" id="nombre">
+  <input type="password" placeholder="Password">
+  <input type="button" name="correo" placeholder="Correo"value="Enviar">
+  <input type="radio" name="m" value="H">Hombre
+  <input type="radio" name="m" value="M">Mujer
+  <select class="" name="">
+    <option value="El Salvador">El Salvador</option>
+    <option value="Guatemala">Guatemala</option>
+  </select>
+  <input type="search" name="" value="">
+  <br>
+  <input type="submit" name="Enviar" value="Enviar formularios">
+</form>

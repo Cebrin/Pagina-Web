@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Hola</title>
+    <!--<link rel="" type="" href="">-->
     <!--<link rel="stylesheet" href="">-->
   </head>
   <body>
     <!--<script src="archivo.js"></script>-->
     <h1>Hola Mundo</h1>
+    <hr>
     <p>
       Bienvenidos a mi sitio web donde encontraras todo lo que buscas y mas... <br>
       solo debes pedir lo que quieras a nuestro correo y nosotros contestaremos <br>
@@ -15,6 +17,74 @@
     </p>
     <p>Hola que tal </p>
     <p>Esto es una super prueba uwu</p>
+    <hr>
+    <cite>Kevin Castillo</cite>
+    <br>
+    <!--Enlances-->
     <a target="_blank" href="https://www.google.com.sv/">Ir a google</a>
+    <!--title sirve para que aparezca una descripcion al pasar el maus sobre el enlace -->
+    <a href="mailto:cebrin@gmail.com" title="Enviar correo">Enviar Mail</a>
+    <hr>
+    <!--Listas-->
+    <ul>
+      <li><a href="#">Elemento 1</a></li>
+      <li> Elemento 2
+        <ul>
+          <li><a href="#">Elemento 2.1</a></li>
+          <li><a href="#">Elemento 2.2</a></li>
+        </ul>
+      </li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+      <li>Elemento 5</li>
+    </ul>
+    <hr>
+    <!-- Lista en orden -->
+    <ol>
+        <li><a href="#">Elemento 1</a></li>
+        <ul>
+          <li>Elemento 1.1</li>
+        </ul>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+        <li><a href="#">Elemento 4</a></li>
+    </ol>
+    <hr>
+    <!--tabla 1-->
+    <table border="3px" width="100%">
+      <tr>
+        <td>Elemento 1</td>
+        <td>Elemento 2</td>
+        <td>Elemento 3</td>
+      </tr>
+      <tr>
+        <td>Elemento 4</td>
+        <td>Elemento 5</td>
+        <td>Elemento 6</td>
+      </tr>
+      <tr>
+        <td>Elemento 7</td>
+        <td>Elemento 8</td>
+        <td>Elemento 9</td>
+      </tr>
+    </table>
+    <hr>
+    <!--Formularios-->
+    <form class="" action="index.html" method="post">
+      <label for="nombre">Ingrese su nombre</label>
+      <input type="text" name="nombre" placeholder="Escribe tu nombre" maxlength="5" id="nombre">
+      <input type="password" placeholder="Password">
+      <input type="button" name="correo" placeholder="Correo"value="Enviar">
+      <input type="radio" name="m" value="H">Hombre
+      <input type="radio" name="m" value="M">Mujer
+      <select class="" name="">
+        <option value="El Salvador">El Salvador</option>
+        <option value="Guatemala">Guatemala</option>
+      </select>
+      <input type="search" name="" value="">
+      <br>
+      <input type="submit" name="Enviar" value="Enviar formularios">
+    </form>
+
   </body>
 </html>
