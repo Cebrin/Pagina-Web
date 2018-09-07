@@ -1,0 +1,13 @@
+body{
+  background: rgb(25, 44, 78);
+}
+div{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(19, 64, 83);
+  color:#fff;
+}
+.caja{
+  position:absolute;
+  left:200px;
+}
